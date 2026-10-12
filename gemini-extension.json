@@ -1,0 +1,26 @@
+{
+  "name": "klisten-toolguard",
+  "version": "0.1.0",
+  "description": "Policy gate decisions and existing attestation lookup; gate calls consume prepaid credit. No tool execution.",
+  "mcpServers": {
+    "toolguard": {
+      "httpUrl": "https://api.klisten.co.kr/mcp/toolguard",
+      "headers": {
+        "Authorization": "Bearer ${KLISTEN_API_KEY}"
+      },
+      "timeout": 20000,
+      "includeTools": [
+        "toolguard_gate_check_paid",
+        "toolguard_attestation_get"
+      ]
+    }
+  },
+  "settings": [
+    {
+      "name": "Klisten API key",
+      "description": "Use your own scoped key with a spending limit. Never paste it into chat.",
+      "envVar": "KLISTEN_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
