@@ -31,3 +31,12 @@ Supply your own key only in the sensitive extension setting. See [INSTALL.md](IN
 - No paid gate call was executed in this distribution test.
 - Public repository availability does not mean gallery inclusion or Google endorsement.
 
+
+## Who this is for
+For developers adding an evidence and policy-check step around registered MCP tools. Read an existing attestation first; request a paid Gate decision only after preparing your target, policy, scan and baseline. Your application must enforce the verified result. ToolGuard does not execute tools or guarantee security.
+
+## Setup and usage pricing
+The integration package is free to install. Hosted API usage is separate: Scan $0.05 and Gate $0.001, using the existing prepaid wallet. Check compatibility and prerequisites before the $5 PayPal top-up. Set a spending limit and never put credentials in chat or public code.
+Start here: https://klisten.co.kr/toolguard-start
+Customer guide: https://klisten.co.kr/customer-guide
+Support: klisteninc@gmail.com
